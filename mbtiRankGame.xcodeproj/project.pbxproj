@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F0209C42830D91000140B6C /* mbtiRankGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209C32830D91000140B6C /* mbtiRankGameApp.swift */; };
+		7F0209C62830D91000140B6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209C52830D91000140B6C /* ContentView.swift */; };
+		7F0209C82830D91000140B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0209C72830D91000140B6C /* Assets.xcassets */; };
+		7F0209CB2830D91000140B6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0209CA2830D91000140B6C /* Preview Assets.xcassets */; };
+		7F0209D52830D91000140B6C /* mbtiRankGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209D42830D91000140B6C /* mbtiRankGameTests.swift */; };
+		7F0209DF2830D91000140B6C /* mbtiRankGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209DE2830D91000140B6C /* mbtiRankGameUITests.swift */; };
+		7F0209E12830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209E02830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F0209D12830D91000140B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F0209B82830D90F00140B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F0209BF2830D91000140B6C;
+			remoteInfo = mbtiRankGame;
+		};
+		7F0209DB2830D91000140B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F0209B82830D90F00140B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F0209BF2830D91000140B6C;
+			remoteInfo = mbtiRankGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F0209C02830D91000140B6C /* mbtiRankGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mbtiRankGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0209C32830D91000140B6C /* mbtiRankGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbtiRankGameApp.swift; sourceTree = "<group>"; };
+		7F0209C52830D91000140B6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F0209C72830D91000140B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F0209CA2830D91000140B6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F0209D02830D91000140B6C /* mbtiRankGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mbtiRankGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0209D42830D91000140B6C /* mbtiRankGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbtiRankGameTests.swift; sourceTree = "<group>"; };
+		7F0209DA2830D91000140B6C /* mbtiRankGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mbtiRankGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0209DE2830D91000140B6C /* mbtiRankGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbtiRankGameUITests.swift; sourceTree = "<group>"; };
+		7F0209E02830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbtiRankGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F0209BD2830D91000140B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0209CD2830D91000140B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0209D72830D91000140B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F0209B72830D90F00140B6C = {
+			isa = PBXGroup;
+			children = (
+				7F0209C22830D91000140B6C /* mbtiRankGame */,
+				7F0209D32830D91000140B6C /* mbtiRankGameTests */,
+				7F0209DD2830D91000140B6C /* mbtiRankGameUITests */,
+				7F0209C12830D91000140B6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F0209C12830D91000140B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209C02830D91000140B6C /* mbtiRankGame.app */,
+				7F0209D02830D91000140B6C /* mbtiRankGameTests.xctest */,
+				7F0209DA2830D91000140B6C /* mbtiRankGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F0209C22830D91000140B6C /* mbtiRankGame */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209C32830D91000140B6C /* mbtiRankGameApp.swift */,
+				7F0209C52830D91000140B6C /* ContentView.swift */,
+				7F0209C72830D91000140B6C /* Assets.xcassets */,
+				7F0209C92830D91000140B6C /* Preview Content */,
+			);
+			path = mbtiRankGame;
+			sourceTree = "<group>";
+		};
+		7F0209C92830D91000140B6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209CA2830D91000140B6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F0209D32830D91000140B6C /* mbtiRankGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209D42830D91000140B6C /* mbtiRankGameTests.swift */,
+			);
+			path = mbtiRankGameTests;
+			sourceTree = "<group>";
+		};
+		7F0209DD2830D91000140B6C /* mbtiRankGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209DE2830D91000140B6C /* mbtiRankGameUITests.swift */,
+				7F0209E02830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift */,
+			);
+			path = mbtiRankGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F0209BF2830D91000140B6C /* mbtiRankGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F0209E42830D91000140B6C /* Build configuration list for PBXNativeTarget "mbtiRankGame" */;
+			buildPhases = (
+				7F0209BC2830D91000140B6C /* Sources */,
+				7F0209BD2830D91000140B6C /* Frameworks */,
+				7F0209BE2830D91000140B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mbtiRankGame;
+			productName = mbtiRankGame;
+			productReference = 7F0209C02830D91000140B6C /* mbtiRankGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F0209CF2830D91000140B6C /* mbtiRankGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F0209E72830D91000140B6C /* Build configuration list for PBXNativeTarget "mbtiRankGameTests" */;
+			buildPhases = (
+				7F0209CC2830D91000140B6C /* Sources */,
+				7F0209CD2830D91000140B6C /* Frameworks */,
+				7F0209CE2830D91000140B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F0209D22830D91000140B6C /* PBXTargetDependency */,
+			);
+			name = mbtiRankGameTests;
+			productName = mbtiRankGameTests;
+			productReference = 7F0209D02830D91000140B6C /* mbtiRankGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F0209D92830D91000140B6C /* mbtiRankGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F0209EA2830D91000140B6C /* Build configuration list for PBXNativeTarget "mbtiRankGameUITests" */;
+			buildPhases = (
+				7F0209D62830D91000140B6C /* Sources */,
+				7F0209D72830D91000140B6C /* Frameworks */,
+				7F0209D82830D91000140B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F0209DC2830D91000140B6C /* PBXTargetDependency */,
+			);
+			name = mbtiRankGameUITests;
+			productName = mbtiRankGameUITests;
+			productReference = 7F0209DA2830D91000140B6C /* mbtiRankGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F0209B82830D90F00140B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7F0209BF2830D91000140B6C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					7F0209CF2830D91000140B6C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7F0209BF2830D91000140B6C;
+					};
+					7F0209D92830D91000140B6C = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7F0209BF2830D91000140B6C;
+					};
+				};
+			};
+			buildConfigurationList = 7F0209BB2830D90F00140B6C /* Build configuration list for PBXProject "mbtiRankGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F0209B72830D90F00140B6C;
+			productRefGroup = 7F0209C12830D91000140B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F0209BF2830D91000140B6C /* mbtiRankGame */,
+				7F0209CF2830D91000140B6C /* mbtiRankGameTests */,
+				7F0209D92830D91000140B6C /* mbtiRankGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F0209BE2830D91000140B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0209CB2830D91000140B6C /* Preview Assets.xcassets in Resources */,
+				7F0209C82830D91000140B6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0209CE2830D91000140B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0209D82830D91000140B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F0209BC2830D91000140B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0209C62830D91000140B6C /* ContentView.swift in Sources */,
+				7F0209C42830D91000140B6C /* mbtiRankGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0209CC2830D91000140B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0209D52830D91000140B6C /* mbtiRankGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0209D62830D91000140B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0209E12830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift in Sources */,
+				7F0209DF2830D91000140B6C /* mbtiRankGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F0209D22830D91000140B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F0209BF2830D91000140B6C /* mbtiRankGame */;
+			targetProxy = 7F0209D12830D91000140B6C /* PBXContainerItemProxy */;
+		};
+		7F0209DC2830D91000140B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F0209BF2830D91000140B6C /* mbtiRankGame */;
+			targetProxy = 7F0209DB2830D91000140B6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F0209E22830D91000140B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F0209E32830D91000140B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F0209E52830D91000140B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mbtiRankGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UY43X9427;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhPrivate.mbtiRankGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F0209E62830D91000140B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mbtiRankGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UY43X9427;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhPrivate.mbtiRankGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F0209E82830D91000140B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UY43X9427;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhPrivate.mbtiRankGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mbtiRankGame.app/mbtiRankGame";
+			};
+			name = Debug;
+		};
+		7F0209E92830D91000140B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UY43X9427;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhPrivate.mbtiRankGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mbtiRankGame.app/mbtiRankGame";
+			};
+			name = Release;
+		};
+		7F0209EB2830D91000140B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UY43X9427;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhPrivate.mbtiRankGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mbtiRankGame;
+			};
+			name = Debug;
+		};
+		7F0209EC2830D91000140B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UY43X9427;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhPrivate.mbtiRankGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mbtiRankGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F0209BB2830D90F00140B6C /* Build configuration list for PBXProject "mbtiRankGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0209E22830D91000140B6C /* Debug */,
+				7F0209E32830D91000140B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F0209E42830D91000140B6C /* Build configuration list for PBXNativeTarget "mbtiRankGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0209E52830D91000140B6C /* Debug */,
+				7F0209E62830D91000140B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F0209E72830D91000140B6C /* Build configuration list for PBXNativeTarget "mbtiRankGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0209E82830D91000140B6C /* Debug */,
+				7F0209E92830D91000140B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F0209EA2830D91000140B6C /* Build configuration list for PBXNativeTarget "mbtiRankGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0209EB2830D91000140B6C /* Debug */,
+				7F0209EC2830D91000140B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F0209B82830D90F00140B6C /* Project object */;
+}
