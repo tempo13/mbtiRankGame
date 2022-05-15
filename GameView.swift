@@ -43,9 +43,12 @@ struct GameView: View {
     func checkStage(isSmall: Bool) -> (Bool, Bool){
         var res: Bool
         var isNext = true
-        if (self.answer.count < 3){
+//        if (self.answer.count < 3){
+//            isNext = false
+//            return (false, isNext)
+//        }
+        if (self.answer[1] == self.answer[self.answer.count - 1]){
             isNext = false
-            return (false, isNext)
         }
         if (self.answer[0] < self.answer[1]){
             res = isSmall ? true: false
@@ -64,8 +67,8 @@ struct GameView: View {
     var body: some View {
         VStack{
             ZStack{
-                CardItem(firstCard: isFirstCard ? true : false, isFirst: self.firstCard, targetText: self.firstText, targetCount: self.firstCount, isShowCount: showCount ? false : true)
-                CardItem(firstCard: isFirstCard ? false: true, isFirst: self.secondCard, targetText: self.secondText, targetCount: self.secondCount, isShowCount: showCount ? true : false)
+                CardItem(firstCard: true, isFirst: self.firstCard, targetText: self.firstText, targetCount: self.firstCount, isShowCount: showCount ? false : true)
+                CardItem(firstCard: false, isFirst: self.secondCard, targetText: self.secondText, targetCount: self.secondCount, isShowCount: showCount ? true : false)
             }
             HStack{
                 Button(action: {
@@ -76,14 +79,15 @@ struct GameView: View {
                     }else{
                         if (res==true){
                             self.changeStatus()
-                            if (isFirstCard != true){
+                            if (self.isFirstCard != true){
                                 self.firstText = self.stage[1]
                                 self.firstCount = self.answer[1]
-                                showCount.toggle()
+                                self.isFirstCard = isFirstCard ? false : true
                             }else{
                                 self.secondText = self.stage[1]
-                                self.firstCount = self.answer[1]
+                                self.secondCount = self.answer[1]
                             }
+                            showCount.toggle()
                         }else{
                             showAlert = true
                         }
@@ -106,13 +110,17 @@ struct GameView: View {
                         if (res==false){
                             self.changeStatus()
                             if (isFirstCard == true){
+                                showCount.toggle()
                                 self.firstText = self.stage[1]
                                 self.firstCount = self.answer[1]
                             }else{
+                                isFirstCard = isFirstCard ? false : true
                                 self.secondText = self.stage[1]
-                                self.firstCount = self.answer[1]
-                                showCount.toggle()
+                                self.secondCount = self.answer[1]
+                                
+                                
                             }
+                            
                         }else{
                             showAlert = true
                         }
