@@ -14,6 +14,11 @@
 		7F0209D52830D91000140B6C /* mbtiRankGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209D42830D91000140B6C /* mbtiRankGameTests.swift */; };
 		7F0209DF2830D91000140B6C /* mbtiRankGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209DE2830D91000140B6C /* mbtiRankGameUITests.swift */; };
 		7F0209E12830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209E02830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift */; };
+		7F0209EF28310F9100140B6C /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209EE28310F9100140B6C /* CardItem.swift */; };
+		7F0209F22831150300140B6C /* testList.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F0209F12831150300140B6C /* testList.json */; };
+		7F0209F5283115BE00140B6C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209F4283115BE00140B6C /* ModelData.swift */; };
+		7F0209F7283115F000140B6C /* StageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209F6283115F000140B6C /* StageList.swift */; };
+		7F0209F928312CE400140B6C /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0209F828312CE400140B6C /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		7F0209DA2830D91000140B6C /* mbtiRankGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mbtiRankGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0209DE2830D91000140B6C /* mbtiRankGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbtiRankGameUITests.swift; sourceTree = "<group>"; };
 		7F0209E02830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mbtiRankGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F0209EE28310F9100140B6C /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		7F0209F12831150300140B6C /* testList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testList.json; sourceTree = "<group>"; };
+		7F0209F4283115BE00140B6C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		7F0209F6283115F000140B6C /* StageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageList.swift; sourceTree = "<group>"; };
+		7F0209F828312CE400140B6C /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,14 @@
 		7F0209C22830D91000140B6C /* mbtiRankGame */ = {
 			isa = PBXGroup;
 			children = (
+				7F0209F3283115AC00140B6C /* Model */,
+				7F0209F0283114C900140B6C /* Resources */,
+				7F0209ED28310F0000140B6C /* CardComponent */,
 				7F0209C32830D91000140B6C /* mbtiRankGameApp.swift */,
 				7F0209C52830D91000140B6C /* ContentView.swift */,
 				7F0209C72830D91000140B6C /* Assets.xcassets */,
 				7F0209C92830D91000140B6C /* Preview Content */,
+				7F0209F828312CE400140B6C /* GameView.swift */,
 			);
 			path = mbtiRankGame;
 			sourceTree = "<group>";
@@ -125,6 +139,31 @@
 				7F0209E02830D91000140B6C /* mbtiRankGameUITestsLaunchTests.swift */,
 			);
 			path = mbtiRankGameUITests;
+			sourceTree = "<group>";
+		};
+		7F0209ED28310F0000140B6C /* CardComponent */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209EE28310F9100140B6C /* CardItem.swift */,
+			);
+			path = CardComponent;
+			sourceTree = "<group>";
+		};
+		7F0209F0283114C900140B6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209F12831150300140B6C /* testList.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F0209F3283115AC00140B6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F0209F4283115BE00140B6C /* ModelData.swift */,
+				7F0209F6283115F000140B6C /* StageList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +272,7 @@
 			files = (
 				7F0209CB2830D91000140B6C /* Preview Assets.xcassets in Resources */,
 				7F0209C82830D91000140B6C /* Assets.xcassets in Resources */,
+				7F0209F22831150300140B6C /* testList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F0209C62830D91000140B6C /* ContentView.swift in Sources */,
+				7F0209F5283115BE00140B6C /* ModelData.swift in Sources */,
 				7F0209C42830D91000140B6C /* mbtiRankGameApp.swift in Sources */,
+				7F0209EF28310F9100140B6C /* CardItem.swift in Sources */,
+				7F0209F928312CE400140B6C /* GameView.swift in Sources */,
+				7F0209F7283115F000140B6C /* StageList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
